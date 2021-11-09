@@ -7,8 +7,8 @@ import smtplib, ssl
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-sender_email = "coffeemachine.wbk@gmail.com"
-password_email = "y9xA6NMitHkeNFC"
+sender_email = ""
+password_email = ""
 
 from privateKeyGenerator import user, gen_QR_code
 
