@@ -41,9 +41,9 @@ class user():
 
 
 def main():
-    f_name = 'zheng'
-    g_name = 'Tianbao'
-    email = 'tianbao.zheng@partner.kit.edu'
+    f_name = ''
+    g_name = ''
+    email = ''
 
     user_1 = user(f_name, g_name, email)
     js_user, private_key = user_1.gen_jason()
