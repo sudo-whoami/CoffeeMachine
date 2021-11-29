@@ -14,8 +14,8 @@
 #define SIEVE D4
 
 
-const char* ssid = "KIT-IoT";
-const char* password = "\"r7]Y%K3$4b|^/AF_!Q8d=|K";
+const char* ssid = "here-SSID";
+const char* password = "here-password";
 
 IPAddress ip(172,22,132,55);
 IPAddress gateway(172,22,132,1);
