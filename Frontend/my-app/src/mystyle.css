@@ -24,11 +24,9 @@ button {
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
-    input:invalid {
-        border: 2px dashed red;
-    }
-
-
+input:invalid {
+    border: 2px dashed red;
+}
 
 .cont {
     /* position: relative; */
@@ -96,11 +94,11 @@ label {
     text-align: center;
 }
 
-    label span {
-        font-size: 12px;
-        color: #a18888;
-        text-transform: uppercase;
-    }
+label span {
+    font-size: 12px;
+    color: #a18888;
+    text-transform: uppercase;
+}
 
 input {
     display: block;

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@drizzle/react-components": "^1.5.3",
     "@drizzle/react-plugin": "^1.5.3",
     "@drizzle/store": "^1.5.3",
     "axios": "^0.24.0",
@@ -12,7 +13,9 @@
     "react-router": "^6.0.1",
     "react-router-dom": "^6.0.1",
     "react-scripts": "^4.0.3",
-    "sweetalert2": "^11.1.10"
+    "sweetalert2": "^11.1.10",
+    "truffle": "^5.4.19",
+    "web3": "^1.6.0"
   },
   "scripts": {
     "start": "react-scripts start",

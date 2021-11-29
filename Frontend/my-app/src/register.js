@@ -1,10 +1,13 @@
 import React from 'react';
-import axios from 'axios'
-import Swal from 'sweetalert2'
+import axios from 'axios';
+import Swal from 'sweetalert2';
+
 import './mystyle.css';
+import { registerCostumer } from './Web3Client';
+
 
 function Register() {
-
+    
     const [formValue, setformValue] = React.useState({
         fname: '',
         gname: '',
@@ -36,7 +39,9 @@ function Register() {
                 });
             }
             else {
-                console.log(response.data)
+                console.log(response.data);
+                registerCostumer(formValue.fname, formValue.gname, formValue.email);
+                //depositCC();
                 Swal.fire({
                     icon: 'success',
                     title: 'Sie wurden erfolgreich registriert',
@@ -66,6 +71,7 @@ function Register() {
                         <div id="bg">
                             <h2>Zum ersten Mal hier?</h2>
                             <p>Bitte registriere dich unten</p>
+
                             <form id="reg_form" onSubmit={handleSubmit}>
                                 <label>
                                     <span>Nachname</span>
