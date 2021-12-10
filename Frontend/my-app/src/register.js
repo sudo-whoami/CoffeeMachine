@@ -35,7 +35,7 @@ function Register() {
                     text: 'Bereits registriert',
                     allowOutsideClick: false
                 }).then(function () {
-                    window.location.replace('http://localhost:3000/');
+                    window.location.replace('http://localhost:3000/bezahlen');
                 });
             }
             else {
@@ -51,7 +51,7 @@ function Register() {
                     text: 'Ihr persönlicher Hash-Key lautet: ' + response.data['hash'],
                     allowOutsideClick: false
                 }).then(function () {
-                    window.location.replace('http://localhost:3000/');
+                    window.location.replace('http://localhost:3000/bezahlen');
                 });
             }
             })
