@@ -14,8 +14,8 @@
 #define SIEVE D4
 
 
-const char* ssid = "KalleBlomquist";
-const char* password = "69DL7kUhZau7SVX";
+const char* ssid = "<your IoT Wifi>";
+const char* password = "<your password>";
 /*
 IPAddress ip(172,22,132,55);
 IPAddress gateway(172,22,132,1);
